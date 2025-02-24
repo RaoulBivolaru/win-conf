@@ -1,5 +1,5 @@
 # Inits
-oh-my-posh init pwsh --config 'C:/Users/raoul/.posh/jandedobbeleer.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/RaoulBivolaru/win-conf/main/omp.json' | Invoke-Expression
 $env:POSH_GIT_ENABLED = $true
 Import-Module -Name Terminal-Icons
 Enable-PowerType
